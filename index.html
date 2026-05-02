@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cheesy Affairs</title>
+
+<style>
+body { margin:0; font-family: 'Segoe UI'; background:#0f0f0f; color:white; }
+
+header {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+  url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  text-align:center;
+}
+
+header h1 { font-size:60px; margin:0; color:#ffcc00; }
+header p { font-size:22px; }
+
+.btn {
+  margin-top:15px;
+  padding:12px 20px;
+  background:#ffcc00;
+  color:black;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:bold;
+}
+
+nav {
+  background:black;
+  padding:15px;
+  text-align:center;
+}
+
+nav a {
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+section { padding:60px 20px; }
+
+h2 { text-align:center; color:#ffcc00; }
+
+.menu {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:25px;
+}
+
+.card {
+  width:260px;
+  background:#1c1c1c;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 5px 15px rgba(0,0,0,0.5);
+}
+
+.card img { width:100%; height:180px; object-fit:cover; }
+
+.card h3 { margin:10px; }
+
+.card p { margin:0 10px 10px; font-size:14px; }
+
+.price { color:#ffcc00; margin:10px; font-weight:bold; }
+
+.contact {
+  text-align:center;
+}
+
+iframe {
+  width:100%;
+  height:300px;
+  border:0;
+  border-radius:10px;
+}
+
+footer {
+  background:black;
+  text-align:center;
+  padding:20px;
+}
+
+.whatsapp {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:white;
+  padding:15px;
+  border-radius:50%;
+  text-decoration:none;
+  font-size:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Cheesy Affairs</h1>
+  <p>Best Pizza • Burgers • Fast Food in Peshawar</p>
+  <a href="#menu" class="btn">View Menu</a>
+  <a href="tel:03705611640" class="btn">Call Now</a>
+</header>
+
+<nav>
+  <a href="#menu">Menu</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="menu">
+<h2>🔥 Popular Items</h2>
+
+<div class="menu">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65">
+<h3>Chicken Tikka Pizza</h3>
+<p>Cheese, chicken, capsicum & tomatoes</p>
+<div class="price">Rs. 552</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
+<h3>Zinger Cheese Burger</h3>
+<p>Crispy chicken with extra cheese</p>
+<div class="price">Rs. 374</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90">
+<h3>Pizza Fries</h3>
+<p>Loaded fries with cheese & sauce</p>
+<div class="price">Rs. 374</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086">
+<h3>Hot Wings (10 pcs)</h3>
+<p>Spicy and crispy wings</p>
+<div class="price">Rs. 535</div>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>🍕 Full Menu</h2>
+<p style="text-align:center; max-width:700px; margin:auto;">
+Pizza, Burgers, Shawarma, Wraps, Wings, Fries, Hot Shots and much more available. Visit us or order now!
+</p>
+</section>
+
+<section id="contact">
+<h2>📍 Find Us</h2>
+
+<div class="contact">
+<p>📞 03705611640</p>
+<p>XGMJ+37M, Swati Rd, near army flats, Zulfiqar Town, Peshawar</p>
+
+<iframe src="https://maps.google.com/maps?q=XGMJ+37M,%20Peshawar&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Cheesy Affairs | All Rights Reserved</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/923705611640">💬</a>
+
+</body>
+</html>
